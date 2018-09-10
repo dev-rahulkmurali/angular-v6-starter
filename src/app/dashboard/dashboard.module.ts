@@ -7,8 +7,8 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    DashboardRoutingModule,
-    SharedModule
+    SharedModule,
+    DashboardRoutingModule
   ],
   declarations: [
     DashboardComponent

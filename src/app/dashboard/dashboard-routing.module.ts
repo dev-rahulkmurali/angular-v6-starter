@@ -5,7 +5,7 @@ import { DashboardComponent } from './dashboard.component';
 
 const routes: Routes = [
   Route.withShell([
-    // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+    { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
     { path: 'dashboard', component: DashboardComponent }
   ])
 ];
